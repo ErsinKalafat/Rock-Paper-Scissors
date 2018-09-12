@@ -1,0 +1,21 @@
+.butonlar {
+    background: #205e7a;
+    height: 80px;
+    width: 80px;
+    color:wheat;
+    font-size: large;
+    border: #ffffff;
+    border-style: groove;
+    border-radius: 10px;
+}
+.ciktilar {
+    font-family: Calibri;
+    font-size:30px;
+    color: #59b137;
+}
+
+.score {
+    font-family: Calibri;
+    font-size:30px;
+    color: #205e7a;
+}

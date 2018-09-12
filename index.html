@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taş, Kağıt, Makas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<table>
+    <tr>
+        <td><h1 style="font-family: Calibri; color: #205e7a;">Seç : </h1></td>
+        <td><button class="butonlar" onclick="tasFunction()">TAŞ</button></td>
+        <td><button class="butonlar" onclick="kagitFunction()">KAĞIT</button></td>
+        <td><button class="butonlar" onclick="makasFunction()">MAKAS</button></td>
+    </tr>
+</table>
+
+<hr>
+
+<table>
+    <tr>
+        <td><img src="icons/user.png" style="width:50px; margin-right: 10px;" > </td>
+        <td><h1 class="ciktilar" id="my_choose"></h1></td>
+    </tr>
+    <tr>
+        <td><img src="icons/ai.png" style="width:50px;"> </td>
+        <td><h1 class="ciktilar" id="ai_choosed"></h1></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><h1 class="ciktilar" id="result"></h1></td>
+    </tr>
+</table>
+<hr>
+<table>
+    <tr class="score">
+        <td>Sen </td>
+        <td> : </td>
+        <td><p id="myScore"></p></td>
+    </tr>
+    <tr class="score">
+        <td>Bilgisayar </td>
+        <td> : </td>
+        <td><p id="aiScore"></p> </td>
+    </tr>
+</table>
+<hr>
+<i style="float: right">Ersin Kalafat - ersin0105@gmail.com</i>
+<script type="text/javascript" src="RPS.js" language="javascript"></script>
+</body>
+
+</html>
