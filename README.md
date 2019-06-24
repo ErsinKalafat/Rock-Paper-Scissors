@@ -1,5 +1,4 @@
 # Rock-Paper-Scissors Game
-*Smartface.io Interview*
 
 >Languages: Javascript, HTML5, CSS3  
 IDE : JetBrains WebStorm
